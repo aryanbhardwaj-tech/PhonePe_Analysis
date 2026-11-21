@@ -1,42 +1,94 @@
-# PhonePe Payment Analysis Dashboard
+# PhonePe Payment Analysis Dashboard | Power BI
 
-An interactive Power BI dashboard designed to analyze PhonePe payment transactions and generate meaningful business insights.
+An interactive **PhonePe Payment Analytics Dashboard** built using Microsoft Power BI to explore digital payment transactions, customer segments, payment performance, and service-wise transaction trends.
+
+## Dashboard Preview
+
+![PhonePe Payment Dashboard](dashboard.png.png)
 
 ## Project Overview
 
-This project focuses on analyzing digital payment transactions through an interactive dashboard, helping understand transaction patterns, payment performance, customer demographics, and service-wise transaction values.
+This project focuses on analyzing PhonePe transaction data and transforming it into meaningful business insights through interactive visualizations, KPI cards, and filters.
+
+The dashboard helps understand transaction performance, user distribution, service contribution, and payment trends.
+
+## Key Performance Indicators (KPIs)
+
+- **Total Transactions:** Overall number of payment transactions.
+- **Total Value:** Total monetary value of transactions.
+- **Unique Users:** Number of unique users.
+- **Successful Rate:** Payment success rate.
 
 ## Dashboard Features
 
-- **Total Transactions:** Overall transaction count.
-- **Total Transaction Value:** Total monetary value of transactions.
-- **Unique Users:** User activity analysis.
-- **Successful Rate:** Payment success performance.
-- **Transactions Over Time:** Monthly transaction trends.
-- **Age Segment Analysis:** Contribution by different generations.
-- **Service Transaction Analysis:** Comparison of transaction values across services.
-- **Weekday vs Weekend:** Transaction activity comparison.
-- **Payment Status Analysis:** Analysis based on payment status.
+### 1. Transaction Analysis
+- Transactions over time.
+- Monthly transaction analysis.
+- Month-wise payment status comparison.
+
+### 2. User Demographics
+- Age segment contribution.
+- Generational user distribution.
+
+### 3. Service Analysis
+- Service-wise transaction value comparison.
+- Comparison of transaction values across different services.
+- Service-level performance analysis.
+
+### 4. Payment & Time Analysis
+- Weekday vs Weekend transaction comparison.
+- Payment status analysis.
+- Month and payment status filtering.
+
+### 5. Business Insights
+- Weekdays show maximum transaction activity in the displayed analysis.
+- Loans service contributes the highest transaction value in the displayed analysis.
+
+## Interactive Filters
+
+- **Month:** Filter dashboard data by month.
+- **Payment Status:** Analyze transactions based on payment status.
 
 ## Tools & Technologies
 
 - Microsoft Power BI
 - Power Query
-- DAX
+- DAX (Data Analysis Expressions)
+- Data Modeling
 - Data Visualization
 
-## Dashboard Preview
+## Data Model
 
-![PhonePe Dashboard](dashboard.png)
+The Power BI project includes the following tables:
 
-## Project File
+- `All_Transactions`
+- `All_Users`
+- `Date_Table`
+- `Measure`
 
-`PhonePe_Analysis.pbix` – Power BI dashboard file.
+## Project Structure
 
-## Objective
+```text
+PhonePe_Analysis/
+│
+├── Assets/
+│   ├── Background.png
+│   ├── calendar-icon.png
+│   ├── Colors.png
+│   └── phonelogo.png
+│
+├── PhonePe_Analysis.pbix
+├── README.md
+└── dashboard.png.png
+```
 
-To transform payment transaction data into meaningful insights using data analytics and interactive visualizations.
+## Project Objective
+
+To develop an interactive business intelligence dashboard that converts digital payment data into understandable visual insights and supports data-driven analysis.
 
 ---
 
-**Created as a Data Analytics Project.**
+**Project:** PhonePe Payment Analysis  
+**Category:** Data Analytics / Business Intelligence  
+**Tool:** Microsoft Power BI
+
